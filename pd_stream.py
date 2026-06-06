@@ -11,3 +11,4 @@ df = pd.DataFrame({
 })
 
 st.write(df)
+st.bar_chart(df.set_index('Nome')['Idade'])
